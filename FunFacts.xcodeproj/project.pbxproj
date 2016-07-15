@@ -12,6 +12,8 @@
 		672E240F1CB3929700522295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E240D1CB3929700522295 /* Main.storyboard */; };
 		672E24111CB3929700522295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672E24101CB3929700522295 /* Assets.xcassets */; };
 		672E24141CB3929700522295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E24121CB3929700522295 /* LaunchScreen.storyboard */; };
+		67F8F82F1CB5ABA100F0A39D /* factModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8F82E1CB5ABA100F0A39D /* factModel.swift */; };
+		67F8F8311CB62C8200F0A39D /* colorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8F8301CB62C8200F0A39D /* colorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		672E24101CB3929700522295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672E24131CB3929700522295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		672E24151CB3929700522295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F8F82E1CB5ABA100F0A39D /* factModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = factModel.swift; sourceTree = "<group>"; };
+		67F8F8301CB62C8200F0A39D /* colorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				672E24091CB3929700522295 /* AppDelegate.swift */,
 				672E240B1CB3929700522295 /* ViewController.swift */,
+				67F8F8301CB62C8200F0A39D /* colorModel.swift */,
+				67F8F82E1CB5ABA100F0A39D /* factModel.swift */,
 				672E240D1CB3929700522295 /* Main.storyboard */,
 				672E24101CB3929700522295 /* Assets.xcassets */,
 				672E24121CB3929700522295 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				672E240C1CB3929700522295 /* ViewController.swift in Sources */,
+				67F8F82F1CB5ABA100F0A39D /* factModel.swift in Sources */,
 				672E240A1CB3929700522295 /* AppDelegate.swift in Sources */,
+				67F8F8311CB62C8200F0A39D /* colorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +258,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Treehaus.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlSmith.BabyFunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,8 +270,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Treehaus.FunFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlSmith.BabyFunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -286,6 +296,7 @@
 				672E241A1CB3929700522295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

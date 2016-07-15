@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  FunFacts
+//  BabyFunFacts
 //
 //  Created by Carl Smith on 4/5/16.
 //  Copyright © 2016 Carl Smith. All rights reserved.
